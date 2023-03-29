@@ -36,6 +36,6 @@ public class HotelEntity {
   @Column(name = "col_information", length = 100)
   private String information;
   
-  @Column(name = "col_timestamp", length = 20)
-  private String timestamp;
+  @Column(name = "col_creation_date", length = 20)
+  private String creationDate;
 }

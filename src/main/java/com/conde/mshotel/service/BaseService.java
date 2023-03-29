@@ -1,5 +1,6 @@
 package com.conde.mshotel.service;
 
+import com.conde.mshotel.entity.HotelEntity;
 import java.sql.SQLException;
 import java.util.List;
 
@@ -12,7 +13,7 @@ import java.util.List;
 public interface BaseService<E, D> {
   public List<E> findAll() throws SQLException;
 
-  public E findById(String id) throws SQLException;
+  public HotelEntity findById(String id) throws SQLException;
 
   public E save(D entity) throws SQLException;
 

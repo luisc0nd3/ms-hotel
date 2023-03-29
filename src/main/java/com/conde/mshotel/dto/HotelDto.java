@@ -12,7 +12,6 @@ import lombok.Data;
 @Data
 @Builder
 public class HotelDto {
-  private String id;
   private String name;
   private String location;
   private String information;
